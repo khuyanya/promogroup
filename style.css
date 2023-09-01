@@ -1,0 +1,17 @@
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1605px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin-top: 70px;
+    margin-bottom: 155px;
+}
