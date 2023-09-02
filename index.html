@@ -22,7 +22,7 @@
 
             <h1>ми працюємо <br>
                 як частина вашої команди</h1>
-            <p>Ми віримо, що: <br>
+            <p class="description">Ми віримо, що: <br>
                 «Щирий сервіс - це коли робиш не тільки те, <br>
                 що маєш, але ще й те, чого можеш і не робити»</p>
             <button>Завантажити презентацію</button>
@@ -45,7 +45,7 @@
                     <span>Співробітників</span>
                 </p>
                 <p>
-                    <span class="numbers">300</span>
+                    <span class="numbers">300<sup>м2</sup></span>
                     <span>Складів</span>
                 </p>
             </div>
@@ -54,16 +54,32 @@
 
     <main>
         <div class="container">
-            <h2>Команда</h2>
-            <div class="photos">
-                <img src="img/team1.jpeg" alt="">
-                <img src="img/team2.jpeg" alt="">
-                <img src="img/team3.jpeg" alt="">
-                <img src="img/team4.jpeg" alt="">
-                <img src="img/team5.jpeg" alt="">
-                <img src="img/team6.jpeg" alt="">
-                <img src="img/team7.jpeg" alt="">
-            </div>
+            <section class="team">
+                <h2>Команда</h2>
+                <div class="photos">
+                    <img src="img/team1.jpeg" alt="">
+                    <img src="img/team2.jpeg" alt="">
+                    <img src="img/team3.jpeg" alt="">
+                    <img src="img/team4.jpeg" alt="">
+                    <img src="img/team5.jpeg" alt="">
+                    <img src="img/team6.jpeg" alt="">
+                    <img src="img/team7.jpeg" alt="">
+                </div>
+            </section>
+            <section class="form">
+                <h2>Зробити майбутнє бренду успішним</h2>
+                <form name="contact-form">
+                    <input type="text" placeholder="Ім'я">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Телефон">
+                    <input type="text" placeholder="Розкажіть про свій проект">
+                    <p>Заповнюючи форму, ви погоджуєтесь на
+                        <a href="#">обробку персональних даних</a>
+                        «Про персональні дані»
+                    </p>
+                    <input type="submit" value="Відправити запит" class="submit">
+                </form>
+            </section>
         </div>
     </main>
 
