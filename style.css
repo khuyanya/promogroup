@@ -163,3 +163,36 @@ form a {
     width: 270px;
     margin-bottom: 100px;
 }
+
+footer {
+    border-top: 1px solid #EFEFEF;
+}
+
+.footer {
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    color: #CECECE;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.soc a {
+    text-decoration: none;
+    color: #686868;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin: 0 50px;
+}
+
+.tel {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
