@@ -46,6 +46,7 @@ button {
     text-transform: uppercase;
     padding: 15px 85px;
     width: 309px;
+    border: none;
 }
 
 .statistics {
